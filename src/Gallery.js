@@ -58,7 +58,7 @@ class Gallery extends Component {
   }
   animate () {
     var zoom = this.controls.target.distanceTo(this.controls.object.position)
-     if (this.newZoom != zoom) {
+     if (this.newZoom !== zoom) {
         console.log(zoom)
        this.newZoom = zoom
      }
